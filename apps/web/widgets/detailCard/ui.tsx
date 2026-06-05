@@ -1,3 +1,4 @@
+"use client"
 import { ALL_TASKS } from "@/features/store/data/databaseTasks";
 import { RootState } from "@/features/store/store";
 import { ic2People, icCategory, icDetail, icSearch, icSort, icTick, icTime } from "@/shared/api";

@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@workspace/ui/components/button";
 import { Pagination, PaginationContent, PaginationItem } from "@workspace/ui/components/pagination";
 import { ChevronLeft, ChevronRight } from "lucide-react";

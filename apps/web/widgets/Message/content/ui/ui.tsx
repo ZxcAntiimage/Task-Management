@@ -1,3 +1,4 @@
+"use client"
 import { RootState } from "@/features/store/store";
 import { ChatWindow } from "@/widgets/ChatWindow";
 import { useSelector } from "react-redux";

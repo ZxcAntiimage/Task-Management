@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useState } from "react";
 import { CardTaskProps } from "@/entities";
 import { icDetail, icStudents, icTime } from "@/shared/api";

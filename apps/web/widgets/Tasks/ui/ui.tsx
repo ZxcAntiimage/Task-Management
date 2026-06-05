@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import { icCategory, icSearch, icSort } from "@/shared/api";
 import { Notifications } from "@/widgets/notifications";

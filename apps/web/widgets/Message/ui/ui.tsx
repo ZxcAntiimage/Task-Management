@@ -1,3 +1,4 @@
+"use client"
 import { USERS } from "@/features/store/data/databasePeoples";
 import { icSearch } from "@/shared/api";
 import { Notifications } from "@/widgets/notifications";
