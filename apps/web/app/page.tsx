@@ -4,9 +4,8 @@ import { MainContent } from "@/widgets/main-content"
 
 export default function Page() {
   return (
-    <div className="flex flex-row h-screen w-screen">
+    <div className="">
       <MainPage/>
-      <MainContent/>
     </div>
   )
 }
