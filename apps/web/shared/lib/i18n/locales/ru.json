@@ -1,0 +1,113 @@
+{
+  "common": {
+    "search": "Поиск",
+    "category": "Категория",
+    "sortBy": "Сортировать по",
+    "deadline": "Срок",
+    "follow": "Подписаться",
+    "followed": "Подписан",
+    "tasks": "Задач",
+    "reviews": "Отзывы",
+    "students": "Студентов",
+    "online": "Онлайн",
+    "today": "Сегодня",
+    "send": "Отправить",
+    "submit": "Отправить"
+  },
+  "navigation": {
+    "overview": "Обзор",
+    "tasks": "Задачи",
+    "mentors": "Наставники",
+    "message": "Сообщения",
+    "settings": "Настройки"
+  },
+  "overview": {
+    "title": "Обзор задач",
+    "hiUser": "Привет, Пользователь",
+    "letsFinish": "Давай завершим твою задачу сегодня!",
+    "runningTask": "Текущие задачи",
+    "task": "Задач",
+    "activity": "Активность",
+    "thisWeek": "Эта неделя",
+    "monthlyMentors": "Наставники месяца",
+    "upcomingTask": "Предстоящие задачи",
+    "progress": "Прогресс",
+    "detailTask": "Детали задачи",
+    "description": "Описание",
+    "essenceOfAssessment": "Суть оценки"
+  },
+  "tasks": {
+    "exploreTask": "Обзор задач",
+    "timeLimit": "Срочные задачи",
+    "newTask": "Новые задачи",
+    "searchResults": "Результаты поиска",
+    "noTasksFound": "Задачи не найдены для",
+    "uiUxDesign": "UI UX Дизайн",
+    "appsDesign": "Дизайн приложений"
+  },
+  "mentors": {
+    "exploreMentors": "Наставники",
+    "searchMentors": "Поиск наставников",
+    "recentMentors": "Недавние наставники",
+    "mentors": "Наставники",
+    "taskCount": "Задач",
+    "defaultDescription": "Привет, я {{name}}. Я профессиональный {{position}}, специализирующийся на современных отраслевых стандартах."
+  },
+  "messages": {
+    "message": "Сообщения",
+    "searchName": "Поиск по имени",
+    "morningMessage": "Доброе утро {{name}}, у меня есть вопрос о моей задаче",
+    "yesSure": "Да, конечно, есть проблемы с заданием?",
+    "howToMake": "Как сделать адаптивный дисплей для панели управления?",
+    "isTherePlugin": "Есть ли плагин для выполнения этой задачи?",
+    "noPlugins": "Нет плагинов. Вам просто нужно сделать его меньше в соответствии с размером экрана телефона.",
+    "thankYou": "Большое спасибо. Я рад, что вы спросили о задании",
+    "sendYourMessage": "Отправьте сообщение",
+    "todayTime": "Сегодня {{time}}",
+    "minutesAgo": " мин назад"
+  },
+  "settings": {
+    "settings": "Настройки",
+    "general": "Основные",
+    "notification": "Уведомления",
+    "language": "Язык",
+    "timezone": "Часовой пояс",
+    "timeFormat": "Формат времени",
+    "english": "Английский (По умолчанию)",
+    "russian": "Русский",
+    "hours24": "24 Часа",
+    "hours12": "12 Часов"
+  },
+  "detailCard": {
+    "assignedAssignments": "Назначенные задания",
+    "studentsName": "Имя студента",
+    "studentClass": "Класс",
+    "studentNumber": "Номер студента",
+    "fileTask": "Файл задания",
+    "lastModified": "Последнее изменение",
+    "fileSubmissions": "Отправленные файлы",
+    "dragOrBrowser": "перетащите или выберите файл",
+    "getMentors": "Найти наставников",
+    "studentsInvolved": "Студентов участвует",
+    "taskNotSelected": "Задача не выбрана",
+    "understandingFigma": "Понимание инструментов в Figma",
+    "basicsOfDesign": "Понимание основ создания дизайна",
+    "designingApp": "Дизайн мобильного приложения с использованием Figma",
+    "presentingDesign": "Презентация дизайн-процесса",
+    "descriptionText": "Следуйте видеоуроку выше. Поймите, как использовать каждый инструмент в приложении Figma. Также узнайте, как создать хороший и правильный дизайн. Начиная с расположения, типографики, контента и многих других иерархий дизайна. Затем попробуйте создать его самостоятельно, используя свое воображение и вдохновение."
+  },
+  "fileUploader": {
+    "dragFiles": "Перетащите файлы сюда или нажмите для выбора",
+    "acceptedFormats": "PDF, DOC, DOCX, PNG (до 10МБ)",
+    "dropFiles": "Перетащите файлы сюда"
+  },
+  "activityChart": {
+    "tasks": "Задачи"
+  },
+  "datePicker": {
+    "monthYear": "Июль 2022"
+  },
+  "notifications": {
+    "title": "Перейти к моему проекту на github"
+  }
+}

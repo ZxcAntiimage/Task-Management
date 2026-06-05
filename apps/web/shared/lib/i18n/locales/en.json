@@ -1,0 +1,113 @@
+{
+  "common": {
+    "search": "Search",
+    "category": "Category",
+    "sortBy": "Sort by",
+    "deadline": "Deadline",
+    "follow": "Follow",
+    "followed": "Followed",
+    "tasks": "Tasks",
+    "reviews": "Reviews",
+    "students": "Students",
+    "online": "Online",
+    "today": "Today",
+    "send": "Send",
+    "submit": "Submit"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "tasks": "Tasks",
+    "mentors": "Mentors",
+    "message": "Message",
+    "settings": "Settings"
+  },
+  "overview": {
+    "title": "Explore Task",
+    "hiUser": "Hi, User",
+    "letsFinish": "Let's finish your task today!",
+    "runningTask": "Running Task",
+    "task": "Task",
+    "activity": "Activity",
+    "thisWeek": "This Week",
+    "monthlyMentors": "Monthly Mentors",
+    "upcomingTask": "Upcoming Task",
+    "progress": "Progress",
+    "detailTask": "Detail Task",
+    "description": "Description",
+    "essenceOfAssessment": "Essence of Assessment"
+  },
+  "tasks": {
+    "exploreTask": "Explore Task",
+    "timeLimit": "Time Limit",
+    "newTask": "New Task",
+    "searchResults": "Search Results",
+    "noTasksFound": "No tasks found for",
+    "uiUxDesign": "UI UX Design",
+    "appsDesign": "Apps Design"
+  },
+  "mentors": {
+    "exploreMentors": "Explore Mentors",
+    "searchMentors": "Search Mentors",
+    "recentMentors": "Recent Mentors",
+    "mentors": "Mentors",
+    "taskCount": "Task",
+    "defaultDescription": "Hi, I'm {{name}}. I am a professional {{position}} specializing in modern industry standards."
+  },
+  "messages": {
+    "message": "Message",
+    "searchName": "Search Name",
+    "morningMessage": "Morning {{name}}, I have question about My Task",
+    "yesSure": "Yes sure, Any problem with your assignment?",
+    "howToMake": "How to make a responsive display from the dashboard?",
+    "isTherePlugin": "Is there a plugin to do this task?",
+    "noPlugins": "No plugins. You just have to make it smaller according to the size of the phone.",
+    "thankYou": "Thank you very much. I'm glad you asked about the assignment",
+    "sendYourMessage": "Send your message",
+    "todayTime": "Today {{time}}",
+    "minutesAgo": "m Ago"
+  },
+  "settings": {
+    "settings": "Settings",
+    "general": "General",
+    "notification": "Notification",
+    "language": "Language",
+    "timezone": "Timezone",
+    "timeFormat": "Time Format",
+    "english": "English (Default)",
+    "russian": "Russian",
+    "hours24": "24 Hours",
+    "hours12": "12 Hours"
+  },
+  "detailCard": {
+    "assignedAssignments": "Assigned Assignments",
+    "studentsName": "Student's name",
+    "studentClass": "Student Class",
+    "studentNumber": "Student Number",
+    "fileTask": "File Task",
+    "lastModified": "Last Modified",
+    "fileSubmissions": "File submissions",
+    "dragOrBrowser": "drag or browser from device",
+    "getMentors": "Get Mentors",
+    "studentsInvolved": "Students Involved",
+    "taskNotSelected": "Task not selected",
+    "understandingFigma": "Understanding the tools in Figma",
+    "basicsOfDesign": "Understand the basics of making designs",
+    "designingApp": "Designing a mobile application using figma",
+    "presentingDesign": "Presenting the design flow",
+    "descriptionText": "Follow the video tutorial above. Understand how to use each tool in the Figma application. Also learn how to make a good and correct design. Starting from spacing, typography, content, and many other design hierarchies. Then try to make it yourself with your imagination and inspiration."
+  },
+  "fileUploader": {
+    "dragFiles": "Drag files here or click to select",
+    "acceptedFormats": "PDF, DOC, DOCX, PNG (up to 10MB)",
+    "dropFiles": "Drop files here"
+  },
+  "activityChart": {
+    "tasks": "Tasks"
+  },
+  "datePicker": {
+    "monthYear": "July 2022"
+  },
+  "notifications": {
+    "title": "Go to my github project"
+  }
+}
