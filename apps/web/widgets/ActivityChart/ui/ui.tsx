@@ -6,8 +6,8 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 
 export function ActivityChart() {
   return (
-    <div className="min-w-105.5 min-h-32.5 w-full h-45">
-      <ResponsiveContainer width="100%" height="100%">
+    <div className="min-w-70 min-h-32.5 w-full h-auto md:h-45">
+      <ResponsiveContainer width="100%" height={200}>
         <LineChart data={data} margin={{ top: 30, right: 10, left: -25, bottom: 0 }}>
           <CartesianGrid vertical={true} horizontal={false} stroke="#F5F5F7" strokeDasharray="0" />
           <YAxis 
@@ -15,13 +15,13 @@ export function ActivityChart() {
             ticks={[1, 2, 3]} 
             axisLine={false} 
             tickLine={false} 
-            tick={{ fill: "#141522", fontSize: 14, fontWeight: 500 }}
+            tick={{ fill: "#141522", fontSize: 12, fontWeight: 500 }}
           />
           <XAxis 
             dataKey="name" 
             axisLine={false} 
             tickLine={false} 
-            tick={{ fill: "#141522", fontSize: 14, fontWeight: 500 }}
+            tick={{ fill: "#141522", fontSize: 12, fontWeight: 500 }}
             dy={10}
           />
           

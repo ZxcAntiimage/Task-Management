@@ -7,10 +7,10 @@ export default function Notifications() {
     const { t } = useTranslation();
     
     return (
-        <div className="max-w-13 max-h-13 hover:scale-105">
+        <div className="max-w-10 max-h-10 sm:max-w-13 sm:max-h-13 hover:scale-105">
             <Dialog>
                 <DialogTrigger>
-                    <Image src={icNotif} alt="" loading="lazy" />
+                    <Image src={icNotif} alt="" loading="lazy" className="w-6 h-6 sm:w-auto sm:h-auto" />
                 </DialogTrigger>
                 <DialogContent>
                     <DialogTitle>{t("notifications.title")}</DialogTitle>

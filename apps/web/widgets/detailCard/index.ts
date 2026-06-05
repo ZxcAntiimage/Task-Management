@@ -1,2 +1,2 @@
-import DetailCard from "./ui/ui";
+import DetailCard from "./ui";
 export {DetailCard}

@@ -1,11 +1,17 @@
 "use client"
-import { MainPage } from "@/pages/Main"
-import { MainContent } from "@/widgets/main-content"
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Page() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/main");
+  }, [router]);
+
   return (
     <div className="">
-      <MainPage/>
+      <h1>Redirecting...</h1>
     </div>
   )
 }

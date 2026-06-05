@@ -1,11 +1,10 @@
-"use client"
 import { Geist, Geist_Mono } from "next/font/google"
 
 import "@workspace/ui/globals.css"
+import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@workspace/ui/lib/utils";
-import { Provider } from "react-redux";
-import { store } from "@/features/store/store";
+import { ReduxProvider } from "@/components/redux-provider";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'})
 
@@ -26,9 +25,9 @@ export default function RootLayout({
       className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
     >
       <body>
-        <Provider store={store} >
+        <ReduxProvider>
           <ThemeProvider>{children}</ThemeProvider>
-        </Provider>
+        </ReduxProvider>
       </body>
     </html>
   )

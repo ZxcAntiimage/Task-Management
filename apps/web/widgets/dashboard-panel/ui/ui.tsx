@@ -19,20 +19,20 @@ export default function DashboardPanel(){
     ];
 
     return(
-        <div className="p-8 bg-white w-63 h-full flex flex-col">
-            <div className="flex flex-row gap-3">
-                <Image loading="lazy" src={Logo} alt="logo" />
-                <h1 className="text-[#141522] font-semibold text-[32px] leading-[150%] tracking-[-3%]">Nuegas</h1>
+        <div className="p-4 sm:p-8 bg-white w-full sm:w-63 h-full flex flex-col">
+            <div className="flex flex-row gap-3 items-center">
+                <Image loading="lazy" src={Logo} alt="logo" className="w-8 h-8 sm:w-auto sm:h-auto" />
+                <h1 className="text-[#141522] font-semibold text-2xl sm:text-[32px] leading-[150%] tracking-[-3%]">Nuegas</h1>
             </div>
-            <ul className="flex flex-col items-center gap-6 mt-15">
+            <ul className="flex flex-row sm:flex-col flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 mt-4 sm:mt-15">
                 {menuItems.map((item) => (
                     <li key={item.key}>
                         <Button 
                             onClick={() => dispatch(changeTab(item.key))} 
-                            className="w-47 h-11 px-5 py-2.5 flex flex-row justify-start gap-3 bg-white active:bg-[#F5F5F7] active:text-[#141522]"
+                            className="w-auto sm:w-47 h-11 px-3 sm:px-5 py-2.5 flex flex-row justify-start gap-3 bg-white active:bg-[#F5F5F7] active:text-[#141522]"
                         >
-                            <Image src={item.icon} alt="" loading="lazy" />
-                            <p className="text-[14px] text-[#8E92BC] font-semibold leading-[150%] tracking-[-2%]">
+                            <Image src={item.icon} alt="" loading="lazy" className="w-4 h-4 sm:w-auto sm:h-auto" />
+                            <p className="text-[12px] sm:text-[14px] text-[#8E92BC] font-semibold leading-[150%] tracking-[-2%]">
                                 {item.label}
                             </p>
                         </Button>

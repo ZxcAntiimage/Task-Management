@@ -39,20 +39,20 @@ export default function CardTask({ id, time, title, progressNum: initialProgress
     }
 
     return (
-        <Card onClick={handleCardClick} className="bg-white w-82 h-78.5 min-w-82 rounded-[10px] p-6 shadow-sm flex flex-col justify-between hover:scale-95">
+        <Card onClick={handleCardClick} className="bg-white w-full max-w-82 h-auto min-h-78.5 rounded-[10px] p-4 sm:p-6 shadow-sm flex flex-col justify-between hover:scale-95">
             <div>
                 {currentIcon && (
-                    <Image src={currentIcon} alt={`Task ${id}`} loading="lazy" />
+                    <Image src={currentIcon} alt={`Task ${id}`} loading="lazy" className="w-8 h-8 sm:w-auto sm:h-auto" />
                 )}
-                <p className="mt-4 mb-1 text-[#141522] text-base font-semibold leading-[150%] tracking-[-2%]">
+                <p className="mt-4 mb-1 text-[#141522] text-sm sm:text-base font-semibold leading-[150%] tracking-[-2%]">
                     {title}
                 </p>
-                <p className="text-[#54577A] mb-4 text-[12px] font-medium tracking-[-2%]">
+                <p className="text-[#54577A] mb-4 text-[10px] sm:text-[12px] font-medium tracking-[-2%]">
                     {t("tasks.uiUxDesign")} . {t("tasks.appsDesign")}
                 </p>
                 <div className="flex flex-row items-center justify-between mb-2">
-                    <p className="text-[#141522] text-base font-medium leading-[150%] tracking-[-2%]">{t("overview.progress")}</p>
-                    <p className="text-[#546FFF] text-base font-medium leading-[150%] tracking-[-2%]">
+                    <p className="text-[#141522] text-sm sm:text-base font-medium leading-[150%] tracking-[-2%]">{t("overview.progress")}</p>
+                    <p className="text-[#546FFF] text-sm sm:text-base font-medium leading-[150%] tracking-[-2%]">
                         {currentProgressName}
                     </p>
                 </div>
@@ -64,12 +64,12 @@ export default function CardTask({ id, time, title, progressNum: initialProgress
                     className="mb-4 bg-[#546FFF]"  
                 />
             </div>
-            <div className="flex flex-row items-center justify-between">
+            <div className="flex flex-row items-center justify-between mt-4">
                 <div className="flex flex-row items-center gap-2">
-                    <Image src={icTime} alt="Time icon" loading="lazy" />
-                    <span className="text-[#141522] text-base font-medium leading-[150%] tracking-[-2%]">{time}</span>
+                    <Image src={icTime} alt="Time icon" loading="lazy" className="w-4 h-4 sm:w-auto sm:h-auto" />
+                    <span className="text-[#141522] text-sm sm:text-base font-medium leading-[150%] tracking-[-2%]">{time}</span>
                 </div>
-                <Image src={icStudents} alt="Students icon" loading="lazy" />
+                <Image src={icStudents} alt="Students icon" loading="lazy" className="w-4 h-4 sm:w-auto sm:h-auto" />
             </div>
         </Card>
     );

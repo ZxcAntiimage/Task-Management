@@ -38,7 +38,7 @@ export function PieChart({ value = 45, size = 64, showText = false }: ExtendedPr
       </ResponsiveContainer>
       {showText && (
         <div className="absolute inset-0 flex items-center justify-center select-none">
-          <span className="text-white text-sm font-semibold tracking-wide">
+          <span className="text-white text-xs sm:text-sm font-semibold tracking-wide">
             {value}%
           </span>
         </div>

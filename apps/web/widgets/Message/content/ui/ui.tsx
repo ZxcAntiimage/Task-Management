@@ -11,7 +11,7 @@ export default function MessageContent(){
     };
 
      return activeChatId ? (
-        <div className="flex-1 h-full flex flex-col">
+        <div className="flex-1 h-full flex flex-col min-h-100">
             <ChatWindow userId={activeChatId} />
         </div>
     ) : (
