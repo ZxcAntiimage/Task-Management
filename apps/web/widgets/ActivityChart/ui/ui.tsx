@@ -7,7 +7,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 export function ActivityChart() {
   return (
     <div className="min-w-70 min-h-32.5 w-full h-auto md:h-45">
-      <ResponsiveContainer width="100%" height={200}>
+      <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={200}>
         <LineChart data={data} margin={{ top: 30, right: 10, left: -25, bottom: 0 }}>
           <CartesianGrid vertical={true} horizontal={false} stroke="#F5F5F7" strokeDasharray="0" />
           <YAxis 
